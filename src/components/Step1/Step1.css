@@ -1,0 +1,40 @@
+.inputForm {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.inputForm .textLabel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.inputForm input,
+.inputForm select {
+  margin-top: 8px;
+  padding: 12px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.48);
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+#field-sex-option-man {
+  color: black;
+}
+
+#field-sex-option-woman {
+  color: black;
+}
+
+.error {
+  font-size: 12px;
+  color: #ff0000;
+  margin-top: 4px;
+}

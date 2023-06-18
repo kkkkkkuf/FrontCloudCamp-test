@@ -1,0 +1,81 @@
+.inputForm {
+  margin-bottom: 24px;
+  width: 45%;
+}
+
+.textLabel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.inputForm input {
+  margin-top: 8px;
+  padding: 12px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.48);
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.create-remove-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.create-remove-container input {
+  flex: 1;
+}
+
+.button-remove{
+  margin-top: 10px;
+  background: none;
+  border: none;
+}
+
+
+#button-add {
+  margin-top: 8px;
+  padding: 8px;
+  font-size: 14px;
+  width: 44px;
+  height: 44px;
+  color: #5558FA;
+  border: 1px solid #5558FA;
+  background: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+
+.checkbox-group {
+  margin-top: 4px;
+}
+
+
+.checkbox-group label,
+.radio-group label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.checkbox-group label input,
+.radio-group label input {
+  margin-right: 8px;
+  margin-top: 6px;
+  align-self: flex-start;
+}
+
+.error {
+  font-size: 12px;
+  color: #ff0000;
+  margin-top: 4px;
+}

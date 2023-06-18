@@ -1,0 +1,45 @@
+.inputFormArea {
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.inputFormArea .textLabel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.inputFormArea textarea {
+  margin-top: 8px;
+  padding: 12px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.48);
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  max-width: 900px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.characterCount {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.48);
+}
+
+.error {
+  font-size: 12px;
+  color: #ff0000;
+  margin-top: 4px;
+}
+
+@media (max-width: 900px) {
+  .inputFormArea textarea {
+    max-width: 100%;
+  }
+}

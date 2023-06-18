@@ -1,0 +1,64 @@
+.formProgress {
+  height: 48px;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.formProgress__step {
+  background-color: #A6A6A6;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  position: relative;
+  top: -4px;
+}
+
+.formProgress__step_current,
+.formProgress__step_completed {
+  background-color: #5558FA;
+}
+
+
+
+.formProgress__step_current::before {
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-radius: 100%;
+  background-color: #FFF;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.formProgress__container_progress {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  height: 8px;
+  background: #00000014;
+}
+
+.formProgress__container_progress[data-step="2"] {
+  background: linear-gradient(to right, #5558FA 50%, #00000014 50%);
+}
+
+.formProgress__container_progress[data-step="3"] {
+  background: #5558FA;
+}
+
+.formProgress__container_labels {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.formProgress__label {
+  color: #A6A6A6;
+}
+
+.formProgress__label_active {
+  color: #5558FA;
+}
